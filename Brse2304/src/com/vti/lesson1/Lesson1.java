@@ -63,6 +63,16 @@ public class Lesson1 {
 
         System.out.println(s == p);
 
+        // Toán tử logic: AND, OR, NOT
+        // AND: return true nếu cả 2 biểu thức đều đúng
+        int x = 1;
+        int y = 1;
+        if ((x == 1) && (y == 1) ) {
+            System.out.println("Giá trị của x và y bằng nhau");
+        } else {
+            System.out.println("Giá trị của x và y khác nhau");
+        }
+
 
     }
 
