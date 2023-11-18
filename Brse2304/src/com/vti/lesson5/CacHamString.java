@@ -22,7 +22,21 @@ public class CacHamString {
 
         // hàm contains. chứa chuỗi trong chuỗi
         String s6 = "Hôm nay là thứ 3 ngày 14/11/2023.";
-        String s7 = "14/11/2023 ";
+        String s7 = "14/11/2023";
         System.out.println("chuỗi s6 có chứa nội dung của s7 hay không: " + s6.contains(s7));
+
+        // hàm indexOf: trả ra vị trí bắt đầu của chuỗi con(chuỗi cần so sánh) trong chuỗi cha ( chuỗi bị so sánh)
+        System.out.println("Vị trí chuỗi s7: " + s6.indexOf(s7));
+        // hàm substring: Cắt 1 chuỗi bắt đầu từ vị trí nào của chuỗi ban đầu ( chuỗi bị cắt )
+        System.out.println("Cắt từ vị trí s7 trong s6 = " + s6.substring(22));
+
+        String s8 = "Hôm,nay,là,thứ,3,ngày,14/11/2023";
+        System.out.println();
+        String[] arrStr = s6.split("/");
+        for (String item: arrStr
+             ) {
+            System.out.println(item );
+        }
+
     }
 }

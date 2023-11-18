@@ -20,7 +20,7 @@ public class Ex1 {
     // In ra 1 số bất kỳ, thêm các chữ số 0 sao cho số chữ số in ra đều có 5 chữ số
     public static void ques2(){
         Random random = new Random();
-        int x = random.nextInt(100);
+        int x = random.nextInt(10000);
         String soDaConvert = String.format("%05d", x);
         System.out.println("Số ngẫu nhiên: " + soDaConvert);
 

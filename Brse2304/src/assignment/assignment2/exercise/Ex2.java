@@ -18,7 +18,7 @@ public class Ex2 {
     }
     public static void question04() {
         String fullName = "Nguyễn Văn A";
-        System.out.printf("Tên tôi là \"%s\" và tôi đang độc thân.%n",fullName );
+        System.out.printf("Tên tôi là \"%s\" và tôi đang độc thân%n",fullName );
     }
 
 // Thiếu câu 5,6
