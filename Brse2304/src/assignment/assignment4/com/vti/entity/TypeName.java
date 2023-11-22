@@ -1,0 +1,5 @@
+package assignment.assignment4.com.vti.entity;
+
+public enum TypeName {
+    ESSAY, MULTIPLE_CHOICE
+}

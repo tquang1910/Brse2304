@@ -25,7 +25,7 @@ public class Person {
 
 
     // constructor và constructor mặc định
-    // tương như hàm nhưng được sử dụng để khởi tạo giá trị cho các instance
+    // tương tự như hàm nhưng được sử dụng để khởi tạo giá trị cho các instance
 
 
     public Person(String name, int age, String address) {
