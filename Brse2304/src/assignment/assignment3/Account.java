@@ -1,4 +1,8 @@
-package assignment.assignment4.com.vti.entity;
+package assignment.assignment3;
+
+import assignment.assignment4.entity.Department;
+import assignment.assignment4.entity.Group;
+import assignment.assignment4.entity.Position;
 
 import java.time.LocalDate;
 

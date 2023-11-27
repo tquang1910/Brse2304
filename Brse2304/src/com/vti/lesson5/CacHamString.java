@@ -26,7 +26,8 @@ public class CacHamString {
         System.out.println("chuỗi s6 có chứa nội dung của s7 hay không: " + s6.contains(s7));
 
         // hàm indexOf: trả ra vị trí bắt đầu của chuỗi con(chuỗi cần so sánh) trong chuỗi cha ( chuỗi bị so sánh)
-        System.out.println("Vị trí chuỗi s7: " + s6.indexOf(s7));
+        int i = s6.indexOf(s7);
+        System.out.println("Vị trí chuỗi s7: " + i);
         // hàm substring: Cắt 1 chuỗi bắt đầu từ vị trí nào của chuỗi ban đầu ( chuỗi bị cắt )
         System.out.println("Cắt từ vị trí s7 trong s6 = " + s6.substring(22));
 

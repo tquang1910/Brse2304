@@ -6,22 +6,21 @@ import java.util.Scanner;
 public class Ex4 {
     public static void main(String[] args) {
 //        ques1();
+//        ques4();
 //        ques3();
 //        ques5();
 //    ques6();
-        ques8();
-        ques9();
+//        ques8();
+//        ques9();
     }
 
     // Cách nhiều space đếm được nhưng cách 1 space không đếm được
     public static void ques1(){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Mời bạn nhập vào 1 xâu kí tự");
-        System.out.println("Nhập vào 1 xâu kí tự");
+        System.out.println(" Hãy nhập vào 1 chuỗi");
         String s = scanner.nextLine();
         String[] words = s.split("\\s+");
-        System.out.println("Số từ là " + words.length);
-
+        System.out.println("Số từ là: " + words.length);
     }
 
     public static void ques2(){
@@ -46,13 +45,16 @@ public class Ex4 {
         System.out.printf("Question 3 - cách 2: %C%s%n", name1.charAt(0), name.substring(1));
 
     }
+
     public static void ques4(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào tên");
         String name = scanner.next();
-     // Chưa xong
-
+     for (int i = 0; i < name.length(); i++) {
+         System.out.println("Kí tự thứ " + (i+1) + " là: " + name.toUpperCase(Locale.ROOT).charAt(i));
+     }
         }
+
      public static void ques5() {
              Scanner scanner = new Scanner(System.in);
              System.out.println("Mời bạn nhập vào họ và tên");
@@ -60,7 +62,7 @@ public class Ex4 {
              String s1 = scanner.nextLine();
              System.out.println("Nhập vào tên: ");
              String s2 = scanner.nextLine();
-             System.out.println("Họ và tên là  " + (s1 + s2) );
+             System.out.println("Họ và tên là:  " + (s1 + s2) );
      }
     public static void ques6(){
         Scanner scanner = new Scanner(System.in);

@@ -8,6 +8,9 @@ public class HinhChuNhat {
     public static int dienTich(int a, int b){
         return (a*b);
     }
+    public static float dienTich(float cd, float cr, float h){
+        return cd*cr*h;
+    }
 
     public static int getChieuDai() {
         return chieuDai;
@@ -39,8 +42,10 @@ public class HinhChuNhat {
        int chuVi =  hcn.chuVi(6,7);
         System.out.println(chuVi);
 
+
         HinhChuNhat hcn2 = new HinhChuNhat();
         hcn2.setDem(89);
         System.out.println(hcn2.dem);
+
     }
 }

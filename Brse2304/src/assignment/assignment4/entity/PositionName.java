@@ -1,4 +1,4 @@
-package assignment.assignment4.com.vti.entity;
+package assignment.assignment4.entity;
 
 public enum PositionName {
     DEV, TEST , SCRUM_MASTER, PM
