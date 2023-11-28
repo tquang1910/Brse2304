@@ -37,5 +37,4 @@ public class DiaChi {
     public void setNumber(int number) {
         this.number = number;
     }
-
 }
