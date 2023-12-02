@@ -25,7 +25,7 @@ public class MainAccount {
                 accObject.setFullName(result.getString("fullName"));
                 accObject.setDepartmentId(result.getInt("departmentId"));
                 accObject.setPositionId(result.getInt("positionId"));
-        
+
        listAccount.add(accObject);
             }
             myStmt.close();
